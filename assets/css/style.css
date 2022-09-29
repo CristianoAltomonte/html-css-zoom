@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+    border: 1px solid red;
+}
+
+/* UTILITY */
+
+.flex-end{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.flex-between{
+    display: flex;
+    justify-content:space-between;
+}
+
+/* /UTILITY */
+
+
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+}
+
+.grid, .maximize{
+    background-color: gray;
+    padding: 4px 3px;
+    margin-top: 5px;
+    border-radius: 3px;
+}
+
+.grid{
+    margin-right: 5px;
+}
+
+main{
+    flex-grow: 1;
+}
