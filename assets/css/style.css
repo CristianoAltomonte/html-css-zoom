@@ -89,9 +89,6 @@ footer{
 .end-meeting{
     padding: 20px 6px;
     background-color: black;
-    
-}
-
-.end-meeting >span{
     color: red;
-}
+} 
+
